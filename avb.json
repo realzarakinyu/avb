@@ -3,163 +3,335 @@
     "required_libavb_version_major" : 1,
     "required_libavb_version_minor" : 0,
     "authentication_data_block_size" : 320,
-    "auxiliary_data_block_size" : 2432,
+    "auxiliary_data_block_size" : 6656,
     "algorithm_type" : 1,
     "hash_offset" : 0,
     "hash_size" : 32,
     "signature_offset" : 32,
     "signature_size" : 256,
-    "public_key_offset" : 1912,
+    "public_key_offset" : 6112,
     "public_key_size" : 520,
-    "public_key_metadata_offset" : 2432,
+    "public_key_metadata_offset" : 6632,
     "public_key_metadata_size" : 0,
     "descriptors_offset" : 0,
-    "descriptors_size" : 1912,
+    "descriptors_size" : 6112,
     "rollback_index" : 0,
-    "flags" : 1,
+    "flags" : 0,
     "release_string" : "avbtool 1.2.0"
   },
   "authBlob" : {
     "offset" : 256,
     "size" : 320,
-    "hash" : "ae4b384b6106d258a2d1a15a7a696a30c35c120ec6d3cbed9e53c2ea10405e04",
-    "signature" : "3cf894934d1733f99da67ce22b30ca797b5a436d5b444006b5cf7a4b8bd42a9afd080e7309f870e07312e6a3118870c5a48d520e5bdb1d7fa27daa6edfd6c112b2deeb9e6819a629a398b129ffdb051d51c82ecf4706214ba0c9bbfea43a2a02dd342328992db2df3da90b1949edcb5c64a90e82ea2ce1c31f7aff85ecdccff4114b956c2157e84d76322fbc02b922aaf0679b373771731e36671ef056a03c707e90cb3835269720f256ba570ad950ed044251740bd605349ed1c7750ce629a80ed3181a6ac3225b82cd93e8659e01afc606ea7012bc701f44742252b458c5539f6326fdce285913408ca2d991366f817cc26b5f01de64d43ba290e99259d3f6"
+    "hash" : "8f18130c977f03d0ce25b69e7f756c7e4e004af20bc63f3b700ca8415c0aa3f7",
+    "signature" : "2ad4f24349aef8162c0f4ee7bc4929279bdc68fa1ffe49c4e763dc47a0156fe14725cc42b95fab68967429d71485e7979d96903cf2a4223bd5bb567cc112165a8334ab34b6282a28002d40a1a14adad3f8952377e1864e51d3ddb51a210458f6c2a8012b5a98fb2423b55c6f64807279b9d77b80d0ce226ee070059f0cc9710a3ab955c591b0556cfa0d295a08538517eb7bc6d876386b69ad55a230b095bf24a943b2ecc7fd3c62c154f9b534b5825dee3bfee562e442011037ac89a8fd8730fe80719531e08f866c51a9b847bbe3ae1a99cf121492b0a3682125e996092466d574ef66efac831b54f31ed8780f949684f6a889ce3c391029d2c805a127a7be"
   },
   "auxBlob" : {
     "pubkey" : {
-      "offset" : 1912,
+      "offset" : 6112,
       "size" : 520,
       "pubkey" : "AAAIAN3C1onuaVOoEOIIpxRB4slj0xuKT7t2yrvDzvHQhOAlM8vz+rnR//6imJ+ET07/dMvAE893FM5LnFQLNcUJ+FYIGjbYdzFCVSYErfVTq96e37/sxVT86Zuz392q8OBkY4UFzpNdwwzWq6J+0tAsEyu778ECITiPceTJgol7IxzjIljHccK3ffP9dQf1FziB6BBTOQBKj26J2KCqtSmXM3Kk4GeV0wdCMZUUcuWXGrt0UjmrD+xHa8jSj9+YRb7BWe+RfYCXtqrAaree/Q24GAm4nSznDjfSH4T50JiNBkaeOf9YZwQlh67JtFZbueUP5prlQ3eXmubddodnA0LdDkOJooBHvMZAM/73+AWtsf145vMRUdtuvj5Dp9shR+kHaBoB78kQ2vUcrT7eetQynrH1TtwpXzXqAfzHRfv1tw2icvPnjFYV7m3njNcrb05Bx/oMvqKzrx99kCZEWuVm8un3gC/ucW9cXkAB+onTQnfJbeS5XcbEPcZkuQ0b7BepCScYnMrlOMSClYYl8OPNK576YRa2KQxdWEbdukihNIhaZhBN/tqdszA2w2960rO70ektljBVPP6m2jcT5iV0spMiers5KtqZ8cy++Urhvg0mWiuPcnue4L7W59lf9bJVlkaFrBfOHvxMdgmmrHCgZd9278zJrYDgFK17kojwSqqqwCkoFQ=="
     },
     "pubkeyMeta" : null,
     "propertyDescriptors" : [ {
       "tag" : 0,
-      "num_bytes_following" : 56,
-      "sequence" : 1,
-      "key" : "com.android.build.system.os_version",
-      "value" : "14"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 144,
-      "sequence" : 2,
-      "key" : "com.android.build.system.fingerprint",
-      "value" : "Xiaomi/warm_global/miproduct:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 72,
-      "sequence" : 3,
-      "key" : "com.android.build.system.security_patch",
-      "value" : "2025-07-01"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 72,
-      "sequence" : 4,
-      "key" : "com.android.build.system.security_patch",
-      "value" : "2025-07-01"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 56,
-      "sequence" : 5,
-      "key" : "com.android.build.product.os_version",
-      "value" : "14"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 144,
-      "sequence" : 6,
-      "key" : "com.android.build.product.fingerprint",
-      "value" : "Xiaomi/warm_global/miproduct:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 72,
-      "sequence" : 7,
-      "key" : "com.android.build.product.security_patch",
-      "value" : "2025-07-01"
-    }, {
-      "tag" : 0,
-      "num_bytes_following" : 72,
-      "sequence" : 8,
-      "key" : "com.android.build.product.security_patch",
-      "value" : "2025-07-01"
-    }, {
-      "tag" : 0,
       "num_bytes_following" : 64,
-      "sequence" : 9,
-      "key" : "com.android.build.system_ext.os_version",
+      "sequence" : 4,
+      "key" : "com.android.build.init_boot.os_version",
       "value" : "14"
     }, {
       "tag" : 0,
       "num_bytes_following" : 144,
+      "sequence" : 5,
+      "key" : "com.android.build.init_boot.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 6,
+      "key" : "com.android.build.init_boot.security_patch",
+      "value" : "2025-07-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 144,
+      "sequence" : 7,
+      "key" : "com.android.build.vendor_boot.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 8,
+      "key" : "com.android.build.vendor.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 136,
+      "sequence" : 9,
+      "key" : "com.android.build.vendor.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
       "sequence" : 10,
-      "key" : "com.android.build.system_ext.fingerprint",
-      "value" : "Xiaomi/warm_global/miproduct:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+      "key" : "com.android.build.vendor.security_patch",
+      "value" : "2025-07-01"
     }, {
       "tag" : 0,
       "num_bytes_following" : 72,
       "sequence" : 11,
-      "key" : "com.android.build.system_ext.security_patch",
+      "key" : "com.android.build.vendor.security_patch",
       "value" : "2025-07-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 12,
+      "key" : "com.android.build.odm.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 136,
+      "sequence" : 13,
+      "key" : "com.android.build.odm.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 64,
+      "sequence" : 14,
+      "key" : "com.android.build.vendor_dlkm.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 144,
+      "sequence" : 15,
+      "key" : "com.android.build.vendor_dlkm.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 64,
+      "sequence" : 16,
+      "key" : "com.android.build.system_dlkm.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 144,
+      "sequence" : 17,
+      "key" : "com.android.build.system_dlkm.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 56,
+      "sequence" : 18,
+      "key" : "com.android.build.mi_ext.os_version",
+      "value" : "14"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 136,
+      "sequence" : 19,
+      "key" : "com.android.build.mi_ext.fingerprint",
+      "value" : "Xiaomi/warm_global/mi_ext:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 20,
+      "key" : "com.android.build.mi_ext.security_patch",
+      "value" : "2025-07-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 72,
+      "sequence" : 21,
+      "key" : "com.android.build.mi_ext.security_patch",
+      "value" : "2025-07-01"
+    }, {
+      "tag" : 0,
+      "num_bytes_following" : 136,
+      "sequence" : 22,
+      "key" : "com.android.build.dtbo.fingerprint",
+      "value" : "Xiaomi/warm_global/warm:14/UKQ1.240624.001/V816.0.10.0.UGVINXM:user/release-keys"
     } ],
     "hashTreeDescriptors" : [ {
       "tag" : 1,
       "num_bytes_following" : 240,
-      "sequence" : 12,
+      "sequence" : 27,
       "flags" : 0,
       "dm_verity_version" : 1,
-      "image_size" : 2631254016,
-      "tree_offset" : 2631254016,
-      "tree_size" : 20725760,
+      "image_size" : 548085760,
+      "tree_offset" : 548085760,
+      "tree_size" : 4325376,
       "data_block_size" : 4096,
       "hash_block_size" : 4096,
       "fec_num_roots" : 2,
-      "fec_offset" : 2651979776,
-      "fec_size" : 20971520,
+      "fec_offset" : 552411136,
+      "fec_size" : 4374528,
       "hash_algorithm" : "sha256",
-      "partition_name" : "product",
-      "salt" : "Cg9I3gPV6FuQ8KMycT3ZCxHIzRdAbmk2qiW2iMczbqw=",
-      "root_digest" : "4jV3pXctmP3fR77tcyeB1ssKpAKkUqW1RSCrjZUXHCw=",
+      "partition_name" : "mi_ext",
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "root_digest" : "yRS0vrivGv/1eg5F02MmUKpgzdwgVdF2o0jWCzfuTM0=",
+      "flagsInterpretation" : "0:A/B system"
+    }, {
+      "tag" : 1,
+      "num_bytes_following" : 232,
+      "sequence" : 28,
+      "flags" : 0,
+      "dm_verity_version" : 1,
+      "image_size" : 11341824,
+      "tree_offset" : 11341824,
+      "tree_size" : 94208,
+      "data_block_size" : 4096,
+      "hash_block_size" : 4096,
+      "fec_num_roots" : 2,
+      "fec_offset" : 11436032,
+      "fec_size" : 98304,
+      "hash_algorithm" : "sha256",
+      "partition_name" : "odm",
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "root_digest" : "6EDXSNnoxARDwhtrc4UAE/eyAKE2Hewe644mVr5Y3vM=",
       "flagsInterpretation" : "0:A/B system"
     }, {
       "tag" : 1,
       "num_bytes_following" : 240,
-      "sequence" : 13,
+      "sequence" : 29,
       "flags" : 0,
       "dm_verity_version" : 1,
-      "image_size" : 631066624,
-      "tree_offset" : 631066624,
-      "tree_size" : 4976640,
+      "image_size" : 14573568,
+      "tree_offset" : 14573568,
+      "tree_size" : 118784,
       "data_block_size" : 4096,
       "hash_block_size" : 4096,
       "fec_num_roots" : 2,
-      "fec_offset" : 636043264,
-      "fec_size" : 5029888,
+      "fec_offset" : 14692352,
+      "fec_size" : 122880,
       "hash_algorithm" : "sha256",
-      "partition_name" : "system",
-      "salt" : "rxd8igyIPWfMgyhyKN95jDrxo5Qe28/v32L++BxmKyE=",
-      "root_digest" : "mHGdGTDTP5gMvPLHlZrr6sbzT2Qi/Yk2lxkfs53mwSE=",
+      "partition_name" : "system_dlkm",
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "root_digest" : "tLLJvkozBcWEibwl1mY0ei0/VTc60wQtWfBigpBvoKs=",
       "flagsInterpretation" : "0:A/B system"
     }, {
       "tag" : 1,
       "num_bytes_following" : 240,
-      "sequence" : 14,
+      "sequence" : 30,
       "flags" : 0,
       "dm_verity_version" : 1,
-      "image_size" : 393805824,
-      "tree_offset" : 393805824,
-      "tree_size" : 3108864,
+      "image_size" : 652226560,
+      "tree_offset" : 652226560,
+      "tree_size" : 5144576,
       "data_block_size" : 4096,
       "hash_block_size" : 4096,
       "fec_num_roots" : 2,
-      "fec_offset" : 396914688,
-      "fec_size" : 3145728,
+      "fec_offset" : 657371136,
+      "fec_size" : 5201920,
       "hash_algorithm" : "sha256",
-      "partition_name" : "system_ext",
-      "salt" : "rxd8igyIPWfMgyhyKN95jDrxo5Qe28/v32L++BxmKyE=",
-      "root_digest" : "CSYaLjL/krxB9W13bsgFAZnjpyf1iZOe9Nf3VVFBuFs=",
+      "partition_name" : "vendor",
+      "salt" : "RssOC7YadxbB0wa54J/BbnpmlG97qEHyumllnDTatCY=",
+      "root_digest" : "HsR0sRmnVq5+RWGFSJgaXvm7FHbIYwbIcCO1ZyDLRiE=",
+      "flagsInterpretation" : "0:A/B system"
+    }, {
+      "tag" : 1,
+      "num_bytes_following" : 240,
+      "sequence" : 31,
+      "flags" : 0,
+      "dm_verity_version" : 1,
+      "image_size" : 23724032,
+      "tree_offset" : 23724032,
+      "tree_size" : 192512,
+      "data_block_size" : 4096,
+      "hash_block_size" : 4096,
+      "fec_num_roots" : 2,
+      "fec_offset" : 23916544,
+      "fec_size" : 196608,
+      "hash_algorithm" : "sha256",
+      "partition_name" : "vendor_dlkm",
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "root_digest" : "5BCy/pIjiL1jNmZqZviLJUkKEY1N68sQD9HWWQTs26E=",
       "flagsInterpretation" : "0:A/B system"
     } ],
-    "hashDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 192,
+      "sequence" : 23,
+      "flags" : 0,
+      "partition_name" : "countrycode",
+      "hash_algorithm" : "sha256",
+      "image_size" : 32,
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "digest" : "GW0eijKD2eCNzzDykssPzoQfWSKkiazq+pWqzxRnbtM=",
+      "partition_name_len" : 11,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    }, {
+      "tag" : 2,
+      "num_bytes_following" : 184,
+      "sequence" : 24,
+      "flags" : 0,
+      "partition_name" : "dtbo",
+      "hash_algorithm" : "sha256",
+      "image_size" : 268977,
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "digest" : "jCn0lWP7jXuHcZRcwcFqJhrX0y1H4CSczcdulELYySI=",
+      "partition_name_len" : 4,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    }, {
+      "tag" : 2,
+      "num_bytes_following" : 192,
+      "sequence" : 25,
+      "flags" : 0,
+      "partition_name" : "init_boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 2113536,
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "digest" : "N2r5WnYdLpxku55W/vKhf9+9OAU8gcLdwsNed4NcXG0=",
+      "partition_name_len" : 9,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    }, {
+      "tag" : 2,
+      "num_bytes_following" : 192,
+      "sequence" : 26,
+      "flags" : 0,
+      "partition_name" : "vendor_boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 11669504,
+      "salt" : "sSPzMewDChxPm1hsjgKYfd9qZPTDWY8R+i0XIu02/EY=",
+      "digest" : "V4olj8kK7I/WXUbkTjsyGvhYCBsv1X34nbZD+ylEVKM=",
+      "partition_name_len" : 11,
+      "salt_len" : 32,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
     "kernelCmdlineDescriptors" : [ ],
-    "chainPartitionDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ {
+      "tag" : 4,
+      "num_bytes_following" : 600,
+      "sequence" : 1,
+      "rollback_index_location" : 3,
+      "partition_name_len" : 4,
+      "public_key_len" : 520,
+      "partition_name" : "boot",
+      "pubkey" : "AAAIAN3C1onuaVOoEOIIpxRB4slj0xuKT7t2yrvDzvHQhOAlM8vz+rnR//6imJ+ET07/dMvAE893FM5LnFQLNcUJ+FYIGjbYdzFCVSYErfVTq96e37/sxVT86Zuz392q8OBkY4UFzpNdwwzWq6J+0tAsEyu778ECITiPceTJgol7IxzjIljHccK3ffP9dQf1FziB6BBTOQBKj26J2KCqtSmXM3Kk4GeV0wdCMZUUcuWXGrt0UjmrD+xHa8jSj9+YRb7BWe+RfYCXtqrAaree/Q24GAm4nSznDjfSH4T50JiNBkaeOf9YZwQlh67JtFZbueUP5prlQ3eXmubddodnA0LdDkOJooBHvMZAM/73+AWtsf145vMRUdtuvj5Dp9shR+kHaBoB78kQ2vUcrT7eetQynrH1TtwpXzXqAfzHRfv1tw2icvPnjFYV7m3njNcrb05Bx/oMvqKzrx99kCZEWuVm8un3gC/ucW9cXkAB+onTQnfJbeS5XcbEPcZkuQ0b7BepCScYnMrlOMSClYYl8OPNK576YRa2KQxdWEbdukihNIhaZhBN/tqdszA2w2960rO70ektljBVPP6m2jcT5iV0spMiers5KtqZ8cy++Urhvg0mWiuPcnue4L7W59lf9bJVlkaFrBfOHvxMdgmmrHCgZd9278zJrYDgFK17kojwSqqqwCkoFQ==",
+      "pubkey_sha1" : "b2a02f1e56e366d727a1a8e089762fe0b91bbc84"
+    }, {
+      "tag" : 4,
+      "num_bytes_following" : 608,
+      "sequence" : 2,
+      "rollback_index_location" : 1,
+      "partition_name_len" : 8,
+      "public_key_len" : 520,
+      "partition_name" : "recovery",
+      "pubkey" : "AAAIAN3C1onuaVOoEOIIpxRB4slj0xuKT7t2yrvDzvHQhOAlM8vz+rnR//6imJ+ET07/dMvAE893FM5LnFQLNcUJ+FYIGjbYdzFCVSYErfVTq96e37/sxVT86Zuz392q8OBkY4UFzpNdwwzWq6J+0tAsEyu778ECITiPceTJgol7IxzjIljHccK3ffP9dQf1FziB6BBTOQBKj26J2KCqtSmXM3Kk4GeV0wdCMZUUcuWXGrt0UjmrD+xHa8jSj9+YRb7BWe+RfYCXtqrAaree/Q24GAm4nSznDjfSH4T50JiNBkaeOf9YZwQlh67JtFZbueUP5prlQ3eXmubddodnA0LdDkOJooBHvMZAM/73+AWtsf145vMRUdtuvj5Dp9shR+kHaBoB78kQ2vUcrT7eetQynrH1TtwpXzXqAfzHRfv1tw2icvPnjFYV7m3njNcrb05Bx/oMvqKzrx99kCZEWuVm8un3gC/ucW9cXkAB+onTQnfJbeS5XcbEPcZkuQ0b7BepCScYnMrlOMSClYYl8OPNK576YRa2KQxdWEbdukihNIhaZhBN/tqdszA2w2960rO70ektljBVPP6m2jcT5iV0spMiers5KtqZ8cy++Urhvg0mWiuPcnue4L7W59lf9bJVlkaFrBfOHvxMdgmmrHCgZd9278zJrYDgFK17kojwSqqqwCkoFQ==",
+      "pubkey_sha1" : "b2a02f1e56e366d727a1a8e089762fe0b91bbc84"
+    }, {
+      "tag" : 4,
+      "num_bytes_following" : 616,
+      "sequence" : 3,
+      "rollback_index_location" : 2,
+      "partition_name_len" : 13,
+      "public_key_len" : 520,
+      "partition_name" : "vbmeta_system",
+      "pubkey" : "AAAIAN3C1onuaVOoEOIIpxRB4slj0xuKT7t2yrvDzvHQhOAlM8vz+rnR//6imJ+ET07/dMvAE893FM5LnFQLNcUJ+FYIGjbYdzFCVSYErfVTq96e37/sxVT86Zuz392q8OBkY4UFzpNdwwzWq6J+0tAsEyu778ECITiPceTJgol7IxzjIljHccK3ffP9dQf1FziB6BBTOQBKj26J2KCqtSmXM3Kk4GeV0wdCMZUUcuWXGrt0UjmrD+xHa8jSj9+YRb7BWe+RfYCXtqrAaree/Q24GAm4nSznDjfSH4T50JiNBkaeOf9YZwQlh67JtFZbueUP5prlQ3eXmubddodnA0LdDkOJooBHvMZAM/73+AWtsf145vMRUdtuvj5Dp9shR+kHaBoB78kQ2vUcrT7eetQynrH1TtwpXzXqAfzHRfv1tw2icvPnjFYV7m3njNcrb05Bx/oMvqKzrx99kCZEWuVm8un3gC/ucW9cXkAB+onTQnfJbeS5XcbEPcZkuQ0b7BepCScYnMrlOMSClYYl8OPNK576YRa2KQxdWEbdukihNIhaZhBN/tqdszA2w2960rO70ektljBVPP6m2jcT5iV0spMiers5KtqZ8cy++Urhvg0mWiuPcnue4L7W59lf9bJVlkaFrBfOHvxMdgmmrHCgZd9278zJrYDgFK17kojwSqqqwCkoFQ==",
+      "pubkey_sha1" : "b2a02f1e56e366d727a1a8e089762fe0b91bbc84"
+    } ],
     "unknownDescriptors" : [ ]
   },
   "footer" : null
